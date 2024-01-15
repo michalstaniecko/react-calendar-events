@@ -1,0 +1,24 @@
+.calendar-day {
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  flex-direction: column;
+}
+
+.calendar-header .calendar-day {
+  justify-content: center;
+  height: 40px;
+}
+
+.calendar-body .calendar-day {
+  height: 80px;
+}
+
+.calendar-day-day {
+  font-size: 24px;
+}
+
+.calendar-day-events {
+  margin-top: auto;
+}
